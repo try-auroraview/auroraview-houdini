@@ -154,5 +154,5 @@ print(f"当前 HIP 文件: {hip_path}")
 
 ## 另请参阅
 
-- [Qt 集成指南](../guide/qt-integration.md)
-- [线程调度器](../guide/thread-dispatcher.md)
+- [Qt 集成指南](https://github.com/try-auroraview/auroraview/blob/11b3a29ad95a46cb22aaa604614de16da16bfc22/docs/zh/guide/qt-integration.md)
+- [线程调度器](https://github.com/try-auroraview/auroraview/blob/11b3a29ad95a46cb22aaa604614de16da16bfc22/docs/zh/guide/thread-dispatcher.md)

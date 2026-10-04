@@ -1,0 +1,40 @@
+{
+  "source_repository": "https://github.com/try-auroraview/auroraview",
+  "original_repository": "https://github.com/loonghao/auroraview",
+  "source_commit": "11b3a29ad95a46cb22aaa604614de16da16bfc22",
+  "source_branch": "main",
+  "source_main_commits": 1623,
+  "source_tree": "4c66e7976d6cf8ea85821ed8d32b0c6d20723c1e",
+  "history_preserved": true,
+  "history_scope": "selected public host/doc paths and shared predecessor; rewritten Git hashes",
+  "filtered_head": "62821c0537ac478a44c029a711130e622a1f7c31",
+  "retained_commits": 10,
+  "tags_copied": false,
+  "github_issues_copied": false,
+  "filter_tool": "git-filter-repo",
+  "path_mapping": {
+    "LICENSE": "LICENSE",
+    "python/auroraview/utils/thread_dispatcher.py": "migration/legacy-thread-dispatcher.py (historical; deleted upstream)",
+    "python/auroraview/utils/thread_dispatcher/backends/houdini.py": "src/auroraview_houdini/dispatcher.py",
+    "python/auroraview/adapter/hosts.py": "src/auroraview_houdini/host.py (narrowed to Houdini during initialization)",
+    "docs/dcc/houdini.md": "docs/houdini.md",
+    "docs/zh/dcc/houdini.md": "docs/zh/houdini.md"
+  },
+  "commit_map_sha256": "d43ead904b8f1cbb6b7be46a24e8a7d03c016f1c607445e8779009b6fadd4926",
+  "source_files": {
+    "LICENSE": "471e51d3c7259a8f2d91fd4d5d6c5990d391d0dc848993095fb7095cd3dcab06",
+    "python/auroraview/utils/thread_dispatcher/backends/houdini.py": "0a6da335a3e569b2409afacb061a50388154a7b0ef0483a888bfe454d06dbe2e",
+    "python/auroraview/adapter/hosts.py": "c416ff948b1c117fe03d5269f64f53a9ae086c9d0457841bdf6f5c4428f754d1"
+  },
+  "implementation_changes": [
+    "Houdini dispatcher shared-base import points to Core; scheduling behavior unchanged.",
+    "Shared host source narrowed to Houdini; dispatcher_spec points to this package.",
+    "Explicit opt-in register replaces only known Houdini slots in existing Core registries.",
+    "Extracted Chinese guide links point to pinned public Core guides; shared guide ownership stays in Core."
+  ],
+  "source_hash_policy": {
+    "LICENSE": "CRLF normalized to LF; canonical MIT text unchanged",
+    "python": "raw bytes; public source policy pins LF"
+  },
+  "publication": "development candidate, not published; native Houdini and released dependency acceptance remain distinct"
+}
